@@ -8,10 +8,10 @@ Image of model in testing phase
 
 
 # Q-learning update
--Q[state, action] = Q[state, action] + learning_rate * (reward + discount_factor * np.max(Q[next_state]) - Q[state, action])
--🐕 This Line = Dog Updating Its Memory
--Think of Q[state, action] as:
--“How good does the dog THINK this action is in this situation?”
+- Q[state, action] = Q[state, action] + learning_rate * (reward + discount_factor * np.max(Q[next_state]) - Q[state, action])
+- 🐕 This Line = Dog Updating Its Memory
+- Think of Q[state, action] as:
+- “How good does the dog THINK this action is in this situation?”
 
 🧠 Break It Into Human (Dog) Thoughts
 Step 1️⃣ Old belief
