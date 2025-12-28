@@ -1,7 +1,7 @@
-This code trains an agent on FrozenLake using Q-learning by letting it explore actions,
-receive rewards, and update a Q-table that stores how good each action is in each state. 
-Over many episodes, exploration decreases and the agent learns the best path to the goal.
-After training, the agent uses the learned Q-table to act greedily and reach the goal without guessing.
+This code trains a Q-learning agent on the Taxi-v3 environment by learning a Q-table that estimates the
+best action for each state based on rewards and future outcomes. The agent initially explores randomly 
+and gradually exploits learned knowledge as exploration decays. After training, the agent follows the 
+learned policy to successfully pick up and drop off passengers.
 
 Image of model in testing phase
 ![img.png](img.png)
